@@ -1,0 +1,53 @@
+/* Adds default CSS values for every element on the page to over ride browsers defaults */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Changes background color of header */
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+
+/* Changes color of words in header. Inline lines it up in the navigation. */
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+
+/* Moves list to be on the right side */
+header nav {
+  float: right;
+  margin: 7 px 0;
+}
+
+/* Moves list to be side by side */
+header nav ul li {
+  display: inline;
+}
+
+/* Applies styles to <a> elements in nav bar */
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+/* Applies styles to all <a> elements */
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+
+
+
+
+body {
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
