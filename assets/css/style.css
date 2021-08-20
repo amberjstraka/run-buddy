@@ -28,16 +28,19 @@ header nav {
   margin: 7 px 0;
 }
 
-/* Moves list to be side by side */
-header nav ul li {
-  display: inline;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 /* Applies styles to <a> elements in nav bar */
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 /* Applies styles to all <a> elements */
